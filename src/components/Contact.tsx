@@ -1,6 +1,8 @@
 import { Mail, Phone, MapPin, Linkedin, Github, ArrowUpRight, FileDown } from 'lucide-react';
 import { useReveal } from '@/hooks/useReveal';
 import { profile } from '@/data/content';
+import aiMlResume from '/resumes/AI-ML-Engineer-Resume.pdf';
+import dataAnalystResume from '/resumes/Data-Analyst-Resume.pdf';
 
 export default function Contact() {
   const ref = useReveal<HTMLDivElement>();
@@ -34,13 +36,13 @@ export default function Contact() {
             <ResumeCard
               title="AI/ML Engineer Resume"
               description="Focused on machine learning, Generative AI, RAG, and AI application development."
-              href="/resumes/AI-ML-Engineer-Resume.pdf"
+              href={aiMlResume}
               downloadName="AI-ML-Engineer-Resume.pdf"
             />
             <ResumeCard
               title="Data Analyst Resume"
               description="Focused on data analytics, SQL, Power BI, EDA, and business intelligence."
-              href="/resumes/Data-Analyst-Resume.pdf"
+              href={dataAnalystResume}
               downloadName="Data-Analyst-Resume.pdf"
             />
           </div>
