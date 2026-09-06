@@ -31,7 +31,7 @@ export default function Navigation() {
             href="#top"
             className="font-display text-lg md:text-xl font-medium tracking-tighter text-charcoal"
           >
-            Gazi<span className="text-burgundy">.</span>Aman
+            Gazi Aman Khan
           </a>
 
           <div className="hidden lg:flex items-center gap-8">
@@ -80,7 +80,7 @@ export default function Navigation() {
       >
         <div className="flex items-center justify-between h-16 px-6 border-b border-beige/60">
           <span className="font-display text-lg font-medium tracking-tighter text-charcoal">
-            Gazi<span className="text-burgundy">.</span>Aman
+            Gazi Aman Khan
           </span>
           <button onClick={() => setOpen(false)} aria-label="Close menu" className="p-2 -mr-2">
             <X className="h-6 w-6 text-charcoal" />

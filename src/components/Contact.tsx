@@ -34,10 +34,12 @@ export default function Contact() {
             <ResumeCard
               title="AI/ML Engineer Resume"
               description="Focused on machine learning, Generative AI, RAG, and AI application development."
+              href="/resumes/AI-ML-Engineer-Resume.pdf"
             />
             <ResumeCard
               title="Data Analyst Resume"
               description="Focused on data analytics, SQL, Power BI, EDA, and business intelligence."
+              href="/resumes/Data-Analyst-Resume.pdf"
             />
           </div>
         </div>
@@ -111,10 +113,11 @@ export default function Contact() {
   );
 }
 
-function ResumeCard({ title, description }: { title: string; description: string }) {
+function ResumeCard({ title, description, href }: { title: string; description: string; href: string }) {
   return (
     <a
-      href="#"
+      href={href}
+      download
       className="group block rounded-2xl border border-beige bg-ivory p-6 md:p-8 transition-all duration-500 hover:border-burgundy hover:bg-ivory-50"
     >
       <div className="flex items-start justify-between gap-4 mb-4">
@@ -126,7 +129,7 @@ function ResumeCard({ title, description }: { title: string; description: string
       </h3>
       <p className="text-sm text-charcoal/60 leading-relaxed">{description}</p>
       <p className="mt-4 font-mono text-xs uppercase tracking-widest text-charcoal/40">
-        PDF — Coming soon
+        Download PDF
       </p>
     </a>
   );
