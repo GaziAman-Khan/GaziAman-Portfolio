@@ -95,7 +95,7 @@ export const projects: Project[] = [
       "Built and deployed an end-to-end Retrieval-Augmented Generation (RAG) application using FastAPI, Gemini Embeddings, Qdrant Vector Database, and Streamlit for semantic PDF search and context-aware answers. Designed a complete document ingestion and retrieval pipeline including PDF chunking, vector embedding generation, similarity search, and cloud deployment using Render and Streamlit Community Cloud.",
     metric: 'End-to-end deployed RAG system',
     github: 'https://github.com/GaziAman-Khan/RAG-learn-code',
-    liveDemo: '#',
+    liveDemo: 'https://rag-pdf-application.streamlit.app/',
     featured: true,
     image: 'https://images.pexels.com/photos/30530415/pexels-photo-30530415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     imageAlt: 'Laptop displaying an AI chat interface for document question answering',

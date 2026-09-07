@@ -19,7 +19,8 @@ export default function Hero() {
       </div>
 
       {/* Main hero content */}
-      <div className="mx-auto max-w-[1400px] w-full">
+      <div className="mx-auto max-w-[1400px] w-full grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-end">
+        <div className="md:col-span-7 lg:col-span-8">
         <div className="mb-6 mt-8 md:mt-12">
           <span className="inline-flex items-center gap-2 rounded-full border border-beige bg-ivory-50 px-4 py-1.5 text-xs font-medium tracking-wide text-charcoal/70">
             <span className="h-1.5 w-1.5 rounded-full bg-burgundy animate-pulse" />
@@ -70,6 +71,15 @@ export default function Hero() {
             <ArrowDown className="h-4 w-4 animate-bounce" />
             Scroll to explore
           </a>
+        </div>
+        </div>
+
+        <div className="md:col-span-5 lg:col-span-4 flex justify-center md:justify-end pointer-events-none">
+          <img
+            src="/images/Gazi_Aman_Khan.png"
+            alt="Gazi Aman Khan"
+            className="h-[28rem] md:h-[34rem] lg:h-[40rem] w-full max-w-md object-cover object-top opacity-90 mix-blend-multiply grayscale contrast-110 brightness-105"
+          />
         </div>
       </div>
     </section>
