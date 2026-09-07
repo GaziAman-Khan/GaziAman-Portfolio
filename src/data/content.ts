@@ -94,7 +94,7 @@ export const projects: Project[] = [
     description:
       "Built and deployed an end-to-end Retrieval-Augmented Generation (RAG) application using FastAPI, Gemini Embeddings, Qdrant Vector Database, and Streamlit for semantic PDF search and context-aware answers. Designed a complete document ingestion and retrieval pipeline including PDF chunking, vector embedding generation, similarity search, and cloud deployment using Render and Streamlit Community Cloud.",
     metric: 'End-to-end deployed RAG system',
-    github: 'https://github.com/GaziAman-Khan',
+    github: 'https://github.com/GaziAman-Khan/RAG-learn-code',
     liveDemo: '#',
     featured: true,
     image: 'https://images.pexels.com/photos/30530415/pexels-photo-30530415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     description:
       "Developed churn and pricing models achieving 87% accuracy and 0.42 RMSE, with 12% improved performance through tuning. Identified key retention and pricing drivers using statistical and feature importance analysis.",
     metric: '87% accuracy · 0.42 RMSE',
-    github: 'https://github.com/GaziAman-Khan',
+    github: 'https://github.com/GaziAman-Khan/Airbnb-Price-Prediction-and-Customer-Churn-Analysis',
     image: 'https://images.pexels.com/photos/270623/pexels-photo-270623.png?auto=compress&cs=tinysrgb&h=650&w=940',
     imageAlt: 'Close-up of Python code on a computer screen',
   },
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     description:
       "Built TF-IDF models on 50k+ samples, achieving approximately 90% accuracy on IMDb and approximately 65% accuracy on news classification using Logistic Regression. Outperformed baseline models by approximately 3–5% and validated results using cross-validation and key evaluation metrics.",
     metric: '~90% accuracy on IMDb · 50k+ samples',
-    github: 'https://github.com/GaziAman-Khan',
+    github: 'https://github.com/GaziAman-Khan/NLP-text-classification',
     image: 'https://images.pexels.com/photos/4816921/pexels-photo-4816921.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     imageAlt: 'Colorful programming code on a computer screen',
   },
@@ -138,7 +138,7 @@ export const projects: Project[] = [
     description:
       "Executed advanced SQL analyses to evaluate revenue, customer patterns, and branch KPIs, identifying the top 37% revenue-contributing outlets. Optimized query execution by 30%, improving reporting efficiency.",
     metric: 'Top 37% outlets identified · 30% faster queries',
-    github: 'https://github.com/GaziAman-Khan',
+    github: 'https://github.com/GaziAman-Khan/Walmart-sales-SQL-analysis',
     image: 'https://images.pexels.com/photos/6777536/pexels-photo-6777536.png?auto=compress&cs=tinysrgb&h=650&w=940',
     imageAlt: 'Indoor market aisle representing retail performance analysis',
   },
@@ -152,7 +152,7 @@ export const projects: Project[] = [
     description:
       "Built a multi-page dashboard analyzing delays, routes, and KPIs using 100k+ flight records and uncovered 15% delay hotspots. Implemented Row-Level Security (RLS) and a clean data model to improve accuracy and secure role-based access.",
     metric: '100k+ records · 15% delay hotspots uncovered',
-    github: 'https://github.com/GaziAman-Khan',
+    github: 'https://github.com/GaziAman-Khan/Airline-Data-Management-and-Analysis-Using-Power-BI-',
     image: 'https://images.pexels.com/photos/16562841/pexels-photo-16562841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     imageAlt: 'Modern airplane docked at an airport terminal',
   },
@@ -166,7 +166,7 @@ export const projects: Project[] = [
     description:
       "Analyzed multi-year EV data to identify key adoption and pricing drivers and uncovered 22% performance variance across segments. Built a recommendation model improving price-feature alignment by 18%, enabling data-backed product insights.",
     metric: '22% variance uncovered · 18% better alignment',
-    github: 'https://github.com/GaziAman-Khan',
+    github: 'https://github.com/GaziAman-Khan/EV-Car-sales-data-analysis',
     image: 'https://images.pexels.com/photos/4678065/pexels-photo-4678065.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     imageAlt: 'Electric vehicle charging station',
   },
