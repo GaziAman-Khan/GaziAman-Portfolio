@@ -1,8 +1,9 @@
 import { Mail, Phone, MapPin, Linkedin, Github, ArrowUpRight, FileDown } from 'lucide-react';
 import { useReveal } from '@/hooks/useReveal';
 import { profile } from '@/data/content';
-import aiMlResume from '/resumes/AI-ML-Engineer-Resume.pdf';
-import dataAnalystResume from '/resumes/Data-Analyst-Resume.pdf';
+
+const AI_ML_RESUME_URL = 'https://github.com/GaziAman-Khan/GaziAman-Portfolio/raw/bd859a77c135bfdca2ceb23ff89d1d3115007fd1/GaziAmanKhan%20-%20AI-ML%20Engineer.pdf';
+const DATA_ANALYST_RESUME_URL = 'https://github.com/GaziAman-Khan/GaziAman-Portfolio/raw/bd859a77c135bfdca2ceb23ff89d1d3115007fd1/GaziAmanKhan%20-%20Data%20Analyst.pdf';
 
 export default function Contact() {
   const ref = useReveal<HTMLDivElement>();
@@ -36,13 +37,13 @@ export default function Contact() {
             <ResumeCard
               title="AI/ML Engineer Resume"
               description="Focused on machine learning, Generative AI, RAG, and AI application development."
-              href={aiMlResume}
+              href={AI_ML_RESUME_URL}
               downloadName="AI-ML-Engineer-Resume.pdf"
             />
             <ResumeCard
               title="Data Analyst Resume"
               description="Focused on data analytics, SQL, Power BI, EDA, and business intelligence."
-              href={dataAnalystResume}
+              href={DATA_ANALYST_RESUME_URL}
               downloadName="Data-Analyst-Resume.pdf"
             />
           </div>
@@ -122,6 +123,8 @@ function ResumeCard({ title, description, href, downloadName }: { title: string;
     <a
       href={href}
       download={downloadName}
+      target="_blank"
+      rel="noopener noreferrer"
       className="group block rounded-2xl border border-beige bg-ivory p-6 md:p-8 transition-all duration-500 hover:border-burgundy hover:bg-ivory-50"
     >
       <div className="flex items-start justify-between gap-4 mb-4">
