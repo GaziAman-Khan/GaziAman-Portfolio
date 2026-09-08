@@ -4,19 +4,6 @@ import { profile } from '@/data/content';
 export default function Hero() {
   return (
     <section id="top" className="relative min-h-screen flex flex-col justify-end pt-32 pb-12 px-6 md:px-10 lg:px-16 grain overflow-hidden">
-      {/* Hero photo — noir/monochrome, right side, blends into background */}
-      <div className="absolute right-0 top-0 bottom-0 w-full lg:w-[45%] xl:w-[40%] pointer-events-none z-0 hidden lg:block">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat grayscale contrast-[1.1] brightness-[0.92] opacity-[0.85]"
-          style={{
-            backgroundImage: `url('https://images.pexels.com/photos/31647492/pexels-photo-31647492.jpeg?auto=compress&cs=tinysrgb&w=1200')`,
-            maskImage: 'linear-gradient(to left, rgba(0,0,0,1) 30%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0) 100%)',
-            WebkitMaskImage: 'linear-gradient(to left, rgba(0,0,0,1) 30%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0) 100%)',
-          }}
-        />
-        <div className="absolute inset-0 bg-ivory/20 mix-blend-multiply" />
-      </div>
-
       {/* Top meta row */}
       <div className="absolute top-24 md:top-28 left-6 md:left-10 lg:left-16 right-6 md:right-10 lg:right-16 flex items-start justify-between z-10">
         <div className="hidden md:block">
@@ -89,7 +76,7 @@ export default function Hero() {
 
         <div className="md:col-span-5 lg:col-span-4 flex justify-center md:justify-end pointer-events-none">
           <img
-            src="/images/Gazi_Aman_Khan.png"
+            src="/Gazi_Aman_Khan.png"
             alt="Gazi Aman Khan"
             className="h-[28rem] md:h-[34rem] lg:h-[40rem] w-full max-w-md object-cover object-top opacity-90 mix-blend-multiply grayscale contrast-110 brightness-105"
           />
